@@ -1,0 +1,12 @@
+require: rubocop-rails
+
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'test/test_helper.rb'
+    - 'bin/**'
+  TargetRubyVersion: 2.7
+  
+Style/Documentation:
+  Enabled: false
